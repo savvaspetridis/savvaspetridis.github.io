@@ -1,0 +1,256 @@
+<html>
+<head>
+    <title> Savvas Petridis </title>
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./main.css">
+
+    <style>
+        .section{
+            padding-top: 20px;
+        }
+        .organizer{
+            padding-top: 10px;
+        }
+
+        .columbia-background1{
+          background-color: #edf3f6; /*#C4D8E2;*/ 
+        }
+        .padding-div{
+          padding-top: 0px;
+          padding-bottom: 10px
+        }
+
+        /*#over img {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+        }*/
+    </style>
+
+</head>
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light bg-light">
+  <div class='container'>
+  <a class="navbar-brand" href="#"> <h2> <font color="#0066ff"> Savvas Petridis </font> </h2> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#projects"> Projects </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#publications"> Publications </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./savvas_resume.pdf"> CV </a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<div class="columbia-background1" style="padding-top: 50px">
+  <div class="padding-div">  
+    <div class='container'>       
+      <div class="row"> 
+        <div class="col-md-3">
+          <img src="./images/new_me.jpg" alt="Savvas Petridis" class="protrait"><br><br>
+          <!-- 
+          Savvas Petridis<br>
+          Columbia University<br>         
+          savvas.petridis@columbia.edu <br>   
+          --> 
+        </div>         
+        <div class="col-md-6"> 
+          <p>
+          I build tools that leverage both human and machine intelligence to tackle complex problems, such as designing visual representations for abstract ideas and fact checking. </p>
+          
+          <p> I am a third year PhD student in computer science at Columbia University, advised by <a href="https://www.cs.columbia.edu/~chilton/">Prof. Lydia Chilton</a>. 
+          </p>
+
+          <p>
+          If you want to collaborate, email me: <b> savvas@cs.columbia.edu </b> <br>
+          <br>
+          Check out my research and professional experience in depth: 
+          <a href="./savvas_resume.pdf">CV</a>
+          </p>
+
+          <p>
+          <b> Office: 703 CEPSR </b>
+          </p>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>  
+
+
+<div class="container">
+  <div id="projects" class='section'>
+    <h3> Projects </h3>
+    <br>
+
+    <div class="row"> 
+      <div class="col-md-4 col-md-offset-2"> 
+        <img src="./images/vb_system_outline.png" class="project_picture">
+      </div>
+      <div class="col-md-6 col-sm-12"> 
+        <h5> VisiBlends: A Flexible Workflow for Visual Blends </h5>
+        <p>
+        Visual blends are an advanced graphic design technique to draw attention to a message. They combine two objects in a way that is novel and useful in conveying a message symbolically. VisiBlends is a flexible workflow for creating visual blends that follows the iterative design process. We introduce a design pattern for blending symbols based on principles of human visual object recognition. Our workflow decomposes the process into both computational techniques and human microtasks. It allows users to collaboratively generate visual blends with steps involving brainstorming, synthesis, and iteration. 
+        </p>
+        [<a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3290605.3300402">paper</a>]
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row"> 
+      <div class="col-md-4 col-md-offset-2"> 
+        <img src="./images/top2_bot2.png" style="width: 200px; border: 1px solid black;">
+      </div>
+      <div class="col-md-6 col-sm-12"> 
+        <h5> Human Errors in Interpreting Visual Metaphor </h5>
+        <p> How do people interpret visual metaphors? What errors do they make? How can we learn from these errors to better visual communication and automatic machine understanding of advertisements? In this work, we provide evidence for four distinct types of errors people make in interpreting visual metaphors. We also show that people’s ability to interpret a visual message is not simply a function of image content but also of message familiarity. We discuss how our findings can be applied toward bettering visual communication. </p>
+        [<a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3325480.3325503">paper</a>]
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row"> 
+      <div class="col-md-4 col-md-offset-2"> 
+        <img src="./images/liar_dataset_excerpt.png" style="width: 300px; border: 1px solid black;">
+      </div>
+      <div class="col-md-6 col-sm-12"> 
+        <h5> Where is your Evidence: Improving Fact-checking by Justification Modeling </h5>
+        <p> Fact-checking is a journalistic practice that compares a claim made publicly against trusted sources of facts. We extend the LIAR dataset by automatically extracting the justification from the fact-checking article used by humans to label a given claim. We show that modeling the extracted justification in conjunction with the claim (and metadata) provides a significant improvement regardless of the machine learning model used.</p>
+        [<a target="_blank" href="https://www.aclweb.org/anthology/W18-5513.pdf">paper</a>]
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row"> 
+      <div class="col-md-4 col-md-offset-2"> 
+        <img src="./images/amuse_demo.png" style="width: 300px; border: 1px solid black;">
+      </div>
+      <div class="col-md-6 col-sm-12"> 
+        <h5> AMuSe: Large-scale WiFi video distribution-experimentation on the ORBIT testbed </h5>
+        <p> AMuSe is a scalable system for WiFi multicast video delivery. The system includes a scheme for dynamic selection of a subset of the receivers as feedback nodes and a rate adaptation algorithm MuDRA that maximizes the channel utilization while meeting QoS requirements. We implemented AMuSe in the ORBIT testbed and evaluated its performance with 150-200 nodes. We present a dynamic web-based application that demonstrates the operation of AMuSe based on traces collected on the testbed in several experiments. The application allows us to compare the performance of AMuSe with other multicast schemes and evaluate the performance of video delivery. 
+
+        <b> This demo was presented at the NYC Media Lab Summit and <a target="_blank" href="https://wimnet.ee.columbia.edu/second-place-prize-for-a-demo-in-the-media-lab-summit/"> won second place! </a> </b></p>
+        [<a target="_blank" href="https://wimnet.ee.columbia.edu/wp-content/uploads/2016/03/infocomdemo.pdf">paper 1</a>]
+        [<a target="_blank" href="https://wimnet.ee.columbia.edu/wp-content/uploads/2013/03/LCN_Demo.pdf">paper 2</a>]
+      </div>
+    </div>
+  
+
+
+  </div>
+</div>
+  
+
+<br>
+
+
+
+
+
+
+
+
+  <!--  
+<div class="container">
+  <div id="visual_metaphors" class='section'>
+    <h3>Visual Metaphors </h3>
+    Visual metaphors are an advanced graphic design technique used in news, advertising and public service announcements to draw users' attention to a message. They blend two objects together in a way that is novel and useful in conveying a message symbolically. 
+    <br><br>
+
+    <b>Professional examples: </b> 
+    <br>
+    <img style="width: 600px;" src="./images/vms_contexts.png" width="500" align="middle">
+    <br><br>
+
+    The Economist article on the left illustrates "Brazil takes off" by symbolizing Brazil with the iconic Brazilian statue Christ the Redeemer and blending it with a rocket literally taking off. The middle advertisement associates Tabasco with heat by blending the hot sauce bottle with a fire extinguisher. The public service announcement on the right shows the Earth melting by blending it with an ice cream cone.
+    <br> <br>
+
+    We have created a system that decomposes the process of making visual blends into a pipeline of human microtasks and computational techniques. The pipeline follows the iterative design process with steps involving brainstorming, synthesis, and iteration. 
+    <br> <br>
+    <b> The Visual Metaphor Pipeline: </b>
+    <br>
+    <img style="width: 500px;" src="./images/vb_system_outline.png" width="500">
+    <br><br>
+    We ran 5 case studies where groups of 2 or 3 people familiar with the pipeline collaborated to make a visual metaphor for a message. Here are the results: 
+    <br><br>
+    <b> Metaphors produced for the 5 messages in the study, with aesthetic improvements done by the users: </b>
+    <br>
+    <img style="width: 800px;" src="./images/Blends_v3.png" width="500">
+    <br> <br>
+    <h4> Current Work: </h4>
+    The metaphors created in the study above were all associations between two nouns, but there exists an even more exciting subset of metaphors that involve a noun and a verb. We saw two examples in the professional metaphors at the beginning: "Brazil + Take off" and "Earth + Melt". Note that in these two examples the symbol for the verb is a noun that is undergoing said verb. 
+
+    <br><br>
+    <b> Here are three more examples of visual metaphors that blend a noun and a verb: </b>
+    <br> 
+    <img style="width: 550px;" src="./images/vm_verbs.png" width="500">
+    <br> <br>
+    I am currently investigating strategies to semi-automate the search for symbols that can represent verbs. One such strategy is to expand a verb into a set of synonyms and hypnernyms. We can then search these terms individually in an image database. 
+
+    <br><br>
+
+  </div> --> 
+
+<div class="columbia-background1">
+  <div class="container">
+    <div id="publications" class='section'>
+      <div class="row">        
+          <div class="col-md-12">   
+            <h3>Publications</h3>
+
+            <i><a href="https://dl.acm.org/doi/pdf/10.1145/3325480.3325503">Human Errors in Interpreting Visual Metaphor</a></i><br>
+            <b> Savvas Petridis</b> and Lydia Chilton <br>
+            Creativity and Cognition 2019 (Oral Presentation) (Acceptance rate: 30%)
+            <br> <br>
+
+            <i><a href="./papers/visiblend.pdf">VisiBlends: A Flexible Workflow for Visual Blends</a></i><br>
+            Lydia B. Chilton, <b> Savvas Petridis</b>, Maneesh Agrawala. <br>
+            CHI 2019 (Oral Presentation) (Acceptance rate: 23.8%)
+            <br> <br>
+            
+            <i><a href="./papers/evidence_paper.pdf">Where is your Evidence: Improving Fact-checking by Justification</a></i><br>
+            Tariq Alhindi, <b> Savvas Petridis</b>, Smaranda Muresan. <br>
+            FEVER Workshop at EMNLP 2018
+            <br> <br>
+
+            <i><a href="http://wimnet.ee.columbia.edu/wp-content/uploads/2016/03/infocomdemo.pdf">AMuSe: Large-scale WiFi video distribution - Experimentation on the ORBIT testbed</a></i><br>
+            Varun Gupta, Raphael Norwitz, <b>Savvas Petridis</b>, Craig Gutterman, Gil Zussman, Yigal Bejerano.<br>
+            Demo description in Proc. IEEE INFOCOM'16, 2016
+            <br> <br>
+
+            <i><a href="http://wimnet.ee.columbia.edu/wp-content/uploads/2013/03/LCN_Demo.pdf"> WiFi multicast to very large groups - experimentation on the ORBIT testbed </a></i><br>
+            Varun Gupta, Raphael Norwitz, <b>Savvas Petridis</b>, Craig Gutterman, Gil Zussman, Yigal Bejerano.<br>
+            Demo at IEEE LCN'15, 2015.
+            <br> <br>
+
+
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</body>
+
+</html>
