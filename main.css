@@ -9,3 +9,18 @@
 	width: 300px;
 	border: 1px solid black;
 }
+
+.center_div {
+  position: absolute;
+  left: 0%;
+}
+
+.link_button{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.link_button:hover {
+	border: 1px solid #075dba;
+}
+
