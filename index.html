@@ -1,8 +1,8 @@
 <html>
 <head>
     <title> Savvas Petridis </title>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./main.css">
 
@@ -53,20 +53,17 @@
   <div class="padding-div">  
     <div class='container'>       
       <div class="row"> 
-        <div class="col-md-3">
-          <img src="./images/me.jpeg" alt="Savvas Petridis" class="protrait"><br><br>
-          <div class="center_div">
+        <div class="col-md-3 text-center" >
+          <img src="./images/me_small.jpeg" alt="Savvas Petridis" class="protrait"><br><br>
+          <!-- <div class="center_div"> -->
+          <div>
           <a href="https://scholar.google.com/citations?user=fEPjVfIAAAAJ&hl=en&oi=ao" class="link_button">Google Scholar</a>
           ·
           <a href="./savvas_resume_2021.pdf" class="link_button" >CV</a>
           ·
           <a href="https://www.linkedin.com/in/savvaspetridis/"  class="link_button">LinkedIn</a>
           </div>
-          <!-- 
-          Savvas Petridis<br>
-          Columbia University<br>         
-          savvas.petridis@columbia.edu <br>   
-          --> 
+          <br>
         </div>         
         <div class="col-md-6"> 
           <h4> Hi, I'm Savvas. </h4>
@@ -93,6 +90,11 @@
   </div>
 </div>  
 
+<!-- <div class="container">
+  <div id="news" class='section'>
+  <h3> News </h3>
+  </div>
+</div> -->
 
 <div class="container">
   <div id="projects" class='section'>
@@ -100,11 +102,12 @@
     <br>
 
     <div class="row"> 
-      <div class="col-md-4 col-md-offset-2"> 
+      <div class="col-md-4 "> 
         <img src="./images/tp_2.png" class="project_picture">
       </div>
-      <div class="col-md-6 col-sm-12"> 
-        <h5> TastePaths: Enabling deeper exploration and understanding of personal preferences in recommender systems</h5>
+      <!-- <div class="col-md-6 col-sm-12"> -->
+      <div class="col-md-6">
+        <p class="paper_title"> TastePaths: Enabling deeper exploration and understanding of personal preferences in recommender systems  <small>[to appear in IUI 2022] </small> </p>
         <p>
         Recommender systems are ubiquitous and influence the information we consume daily by helping us navigate vast
 catalogs of information like music databases. However, their linear approach of surfacing content in ranked lists limits
@@ -121,11 +124,12 @@ a graph of connected artists.
     <hr>
 
     <div class="row"> 
-      <div class="col-md-4 col-md-offset-2"> 
-        <img src="./images/symbol_finder_image.png" class="project_picture">
+      <div class="col-md-4"> 
+        <img src="./images/symbol_finder_image.png" class="project_picture3">
       </div>
-      <div class="col-md-6 col-sm-12"> 
-        <h5> SymbolFinder: Brainstorming diverse symbols using local semantic networks </h5>
+      <div class="col-md-6"> 
+        <!-- <h5> SymbolFinder: Brainstorming diverse symbols using local semantic networks </h5> -->
+        <p class="paper_title"> SymbolFinder: Brainstorming diverse symbols using local semantic networks  <small>[UIST 2021] </small> </p>
         <p>
         Visual symbols are the building blocks for visual communication. They convey abstract concepts like <i> reform
 </i> and <i> participation </i> with concrete objects like scaffolding and key. Student designers struggle to brainstorm
@@ -136,18 +140,20 @@ than recall task by introducing the user to diverse clusters associated with the
 these clusters to find related, concrete objects that can symbolize the concept. 
         </p>
         [<a target="_blank" href="./papers/symbolfinder.pdf">paper</a>]
-        [<a target="_blank" href="https://columbia-computational-design-lab.github.io/symbol_finder_web/">project page</a>]
+        [<a target="_blank" href="https://www.youtube.com/watch?v=5qO6XF_nwCg">talk</a>]
+        <!-- [<a target="_blank" href="https://columbia-computational-design-lab.github.io/symbol_finder_web/">project page</a>] --> 
+        <!-- https://www.youtube.com/watch?v=5qO6XF_nwCg --> 
       </div>
     </div>
 
     <hr>
 
     <div class="row"> 
-      <div class="col-md-4 col-md-offset-2"> 
+      <div class="col-md-4"> 
         <img src="./images/vb_system_outline.png" class="project_picture">
       </div>
-      <div class="col-md-6 col-sm-12"> 
-        <h5> VisiBlends: A Flexible Workflow for Visual Blends </h5>
+      <div class="col-md-6"> 
+        <p class="paper_title"> VisiBlends: A Flexible Workflow for Visual Blends  <small>[CHI 2019] </small> </p>
         <p>
         Visual blends are an advanced graphic design technique to draw attention to a message. They combine two objects in a way that is novel and useful in conveying a message symbolically. VisiBlends is a flexible workflow for creating visual blends that follows the iterative design process. We introduce a design pattern for blending symbols based on principles of human visual object recognition. Our workflow decomposes the process into both computational techniques and human microtasks. It allows users to collaboratively generate visual blends with steps involving brainstorming, synthesis, and iteration. 
         </p>
@@ -158,11 +164,12 @@ these clusters to find related, concrete objects that can symbolize the concept.
     <hr>
 
     <div class="row"> 
-      <div class="col-md-4 col-md-offset-2"> 
-        <img src="./images/top2_bot2.png" style="width: 200px; border: 1px solid black;">
+      <div class="col-md-4"> 
+        <img src="./images/top2_bot2_3.png" class="project_picture2">
       </div>
-      <div class="col-md-6 col-sm-12"> 
-        <h5> Human Errors in Interpreting Visual Metaphor </h5>
+      <div class="col-md-6"> 
+        <!-- <h5> Human Errors in Interpreting Visual Metaphor </h5> --> 
+        <p class="paper_title"> Human Errors in Interpreting Visual Metaphor  <small>[C&C 2019] </small> </p>
         <p> How do people interpret visual metaphors? What errors do they make? How can we learn from these errors to better visual communication and automatic machine understanding of advertisements? In this work, we provide evidence for four distinct types of errors people make in interpreting visual metaphors. We also show that people’s ability to interpret a visual message is not simply a function of image content but also of message familiarity. We discuss how our findings can be applied toward bettering visual communication. </p>
         [<a target="_blank" href="./papers/human_errors.pdf">paper</a>]
       </div>
@@ -171,11 +178,11 @@ these clusters to find related, concrete objects that can symbolize the concept.
     <hr>
 
     <div class="row"> 
-      <div class="col-md-4 col-md-offset-2"> 
-        <img src="./images/liar_dataset_excerpt.png" style="width: 300px; border: 1px solid black;">
+      <div class="col-md-4"> 
+        <img src="./images/liar_dataset_excerpt.png" class="project_picture">
       </div>
-      <div class="col-md-6 col-sm-12"> 
-        <h5> Where is your Evidence: Improving Fact-checking by Justification Modeling </h5>
+      <div class="col-md-6"> 
+        <p class="paper_title"> Where is your Evidence: Improving Fact-checking by Justification Modeling  <small>[FEVER @ EMNLP 2018] </small> </p>
         <p> Fact-checking is a journalistic practice that compares a claim made publicly against trusted sources of facts. We extend the LIAR dataset by automatically extracting the justification from the fact-checking article used by humans to label a given claim. We show that modeling the extracted justification in conjunction with the claim (and metadata) provides a significant improvement regardless of the machine learning model used.</p>
         [<a target="_blank" href="./papers/evidence_paper.pdf">paper</a>]
       </div>
@@ -184,11 +191,11 @@ these clusters to find related, concrete objects that can symbolize the concept.
     <hr>
 
     <div class="row"> 
-      <div class="col-md-4 col-md-offset-2"> 
-        <img src="./images/amuse_demo.png" style="width: 300px; border: 1px solid black;">
+      <div class="col-md-4"> 
+        <img src="./images/amuse_demo.png" class="project_picture">
       </div>
-      <div class="col-md-6 col-sm-12"> 
-        <h5> AMuSe: Large-scale WiFi video distribution-experimentation on the ORBIT testbed </h5>
+      <div class="col-md-7"> 
+        <p class="paper_title"> AMuSe: Large-scale WiFi video distribution-experimentation on the ORBIT testbed  <small> [IEEE LCN 2015, INFOCOM 2016] </small> </p>
         <p> AMuSe is a scalable system for WiFi multicast video delivery. The system includes a scheme for dynamic selection of a subset of the receivers as feedback nodes and a rate adaptation algorithm MuDRA that maximizes the channel utilization while meeting QoS requirements. We implemented AMuSe in the ORBIT testbed and evaluated its performance with 150-200 nodes. We present a dynamic web-based application that demonstrates the operation of AMuSe based on traces collected on the testbed in several experiments. The application allows us to compare the performance of AMuSe with other multicast schemes and evaluate the performance of video delivery. 
 
         <b> This demo was presented at the NYC Media Lab Summit and <a target="_blank" href="https://wimnet.ee.columbia.edu/second-place-prize-for-a-demo-in-the-media-lab-summit/"> won second place! </a> </b></p>
@@ -206,45 +213,45 @@ these clusters to find related, concrete objects that can symbolize the concept.
 <br>
 
 
-<div class="columbia-background1">
+<div class="columbia-background1"> 
   <div class="container">
     <div id="publications" class='section'>
       <div class="row">        
           <div class="col-md-12">   
             <h3>Publications</h3>
 
-            <i><a href="./papers/tastepaths.pdf">TastePaths: Enabling deeper exploration and understanding of personal preferences in recommender systems</a></i><br>
-            <b> Savvas Petridis</b>, Nediyana Daskalova, Sarah Mennicken, Samuel F. Way, Paul Lamere, Jennifer Thom <br>
-            In submission at IUI 2022.
+            <i><a href="./papers/tastepaths.pdf"><strong>TastePaths: Enabling deeper exploration and understanding of personal preferences in recommender systems</strong></a></i><br>
+            <b> Savvas Petridis</b>, <a href="https://nediyana.github.io/">Nediyana Daskalova</a>, <a href="http://sarahmennicken.com/">Sarah Mennicken</a>, <a href="http://samfway.com/"> Samuel F. Way</a>, <a href="https://musicmachinery.com/"> Paul Lamere</a>, Jennifer Thom. <br>
+            To appear in IUI 2022.
             <br> <br>
 
-            <i><a href="./papers/symbolfinder.pdf">SymbolFinder: Brainstorming diverse symbols using local semantic networks</a></i><br>
-            <b> Savvas Petridis</b>, Hijung Valentina Shin, Lydia Chilton <br>
+            <i><a href="./papers/symbolfinder.pdf"> <strong> SymbolFinder: Brainstorming diverse symbols using local semantic networks </strong> </a></i><br>
+            <b> Savvas Petridis</b>, <a href="https://hishin.github.io/"> Hijung Valentina Shin</a>, <a href="https://www.cs.columbia.edu/~chilton/chilton.html"> Lydia B. Chilton</a>.<br>
             UIST 2021, ACM Symposium on User Interface Software and Technology
             <br> <br>
 
-            <i><a href="./papers/human_errors.pdf">Human Errors in Interpreting Visual Metaphor</a></i><br>
-            <b> Savvas Petridis</b> and Lydia Chilton <br>
+            <i><a href="./papers/human_errors.pdf"><strong>Human Errors in Interpreting Visual Metaphor </strong></a></i><br>
+            <b> Savvas Petridis</b> and <a href="https://www.cs.columbia.edu/~chilton/chilton.html"> Lydia B. Chilton</a>.<br>
             Creativity and Cognition 2019 
             <br> <br>
 
-            <i><a href="./papers/visiblends.pdf">VisiBlends: A Flexible Workflow for Visual Blends</a></i><br>
-            Lydia B. Chilton, <b> Savvas Petridis</b>, Maneesh Agrawala. <br>
+            <i><a href="./papers/visiblends.pdf"><strong>VisiBlends: A Flexible Workflow for Visual Blends</strong></a></i><br>
+            <a href="https://www.cs.columbia.edu/~chilton/chilton.html"> Lydia B. Chilton</a>, <b> Savvas Petridis</b>, <a href="http://graphics.stanford.edu/~maneesh/"> Maneesh Agrawala</a>.<br>
             CHI 2019, ACM Conference on Human Factors in Computing Systems
             <br> <br>
             
-            <i><a href="./papers/evidence_paper.pdf">Where is your Evidence: Improving Fact-checking by Justification</a></i><br>
-            Tariq Alhindi, <b> Savvas Petridis</b>, Smaranda Muresan. <br>
-            FEVER Workshop at EMNLP 2018
+            <i><a href="./papers/evidence_paper.pdf"> <strong> Where is your Evidence: Improving Fact-checking by Justification </strong></a></i><br>
+            <a href="https://www.cs.columbia.edu/~tariq/"> Tariq Alhindi</a>, <b> Savvas Petridis</b>,  <a href="http://www.cs.columbia.edu/~smara/"> Smaranda Muresan</a>. <br>
+            FEVER (Fact Extraction and Verification) Workshop at EMNLP 2018
             <br> <br>
 
-            <i><a href="http://wimnet.ee.columbia.edu/wp-content/uploads/2016/03/infocomdemo.pdf">AMuSe: Large-scale WiFi video distribution - Experimentation on the ORBIT testbed</a></i><br>
+            <i><a href="http://wimnet.ee.columbia.edu/wp-content/uploads/2016/03/infocomdemo.pdf"><strong> AMuSe: Large-scale WiFi video distribution - Experimentation on the ORBIT testbed </strong></a></i><br>
             Varun Gupta, Raphael Norwitz, <b>Savvas Petridis</b>, Craig Gutterman, Gil Zussman, Yigal Bejerano.<br>
             Demo description in Proc. IEEE INFOCOM'16, 2016
             <br> <br>
 
-            <i><a href="http://wimnet.ee.columbia.edu/wp-content/uploads/2013/03/LCN_Demo.pdf"> WiFi multicast to very large groups - experimentation on the ORBIT testbed </a></i><br>
-            Varun Gupta, Raphael Norwitz, <b>Savvas Petridis</b>, Craig Gutterman, Gil Zussman, Yigal Bejerano.<br>
+            <i><a href="http://wimnet.ee.columbia.edu/wp-content/uploads/2013/03/LCN_Demo.pdf"> <strong>WiFi multicast to very large groups - experimentation on the ORBIT testbed </strong> </a></i><br>
+            Varun Gupta, Raphael Norwitz, <b>Savvas Petridis</b>, Craig Gutterman, <a href="https://wimnet.ee.columbia.edu/people/gil-zussman/"> Gil Zussman</a>, Yigal Bejerano.<br>
             Demo at IEEE LCN'15, 2015.
             <br> <br>
 

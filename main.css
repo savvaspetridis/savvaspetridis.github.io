@@ -2,17 +2,34 @@
 
 .protrait {
 	border-radius: 50%;
-	width: 200px;
+	max-width: 100%;
+	height: auto;
+}
+
+.paper_title{
+	font-size: 19;
+	 font-weight: bold;
 }
 
 .project_picture {
-	width: 300px;
+	max-width: 90%;
+	min-width: 90%;
+	border: 1px solid black;
+}
+
+.project_picture2 {
+	max-width: 60%;
+	border: 1px solid black;
+}
+
+.project_picture3 {
+	max-width: 80%;
 	border: 1px solid black;
 }
 
 .center_div {
-  position: absolute;
-  left: -3%;
+  position: relative;
+  left: -9%;
 }
 
 .link_button{
