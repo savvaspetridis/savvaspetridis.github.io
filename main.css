@@ -33,13 +33,15 @@
 }
 
 .link_button{
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	padding: 5px;
 }
 
+
+/*
 .link_button:hover {
 	border: 1px solid #075dba;
-}
+}*/
 
 .highlight_text{
 	background-color: #91e1ff;
