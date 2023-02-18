@@ -42,7 +42,7 @@
         <a class="nav-link" href="#publications"> Publications </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./savvas_resume_2021.pdf"> CV </a>
+        <a class="nav-link" href="./savvas_resume_2021.pdf"> CV (2021) </a>
       </li>
     </ul>
   </div>
@@ -61,7 +61,7 @@
           ·
           <a href="https://www.semanticscholar.org/author/21622968"  class="link_button">Semantic Scholar</a>
           ·
-          <a href="./savvas_resume_2021.pdf" class="link_button" >CV</a>
+          <a href="./savvas_resume_2021.pdf" class="link_button" >CV (2021)</a>
           ·
           <a href="https://www.linkedin.com/in/savvaspetridis/"  class="link_button">LinkedIn</a>
           </div>
@@ -69,21 +69,16 @@
         </div>         
         <div class="col-md-6"> 
           <h4> Hi, I'm Savvas. </h4>
-          <p>
-          I design, build, and analyze tools that augment people's ability to explore and make sense of large datasets. </p>
           
-          <p> I am a fifth year PhD student in computer science at <a href="https://www.columbia.edu/">Columbia University</a>, advised by <a href="https://www.cs.columbia.edu/~chilton/">Prof. Lydia B. Chilton</a>. I'm broadly interested in <b> HCI</b>, <b> AI</b>, <b>Sensemaking</b>, and <b>Visualization</b>. I've completed research internships at <a href="https://research.atspotify.com/">Spotify</a> (Summer 2021), <a href="https://research.adobe.com/">Adobe</a> (Summer 2019), and <a href="https://research.ibm.com/">IBM</a> (Summer 2016 + 2017).  
+          <p><b>I am a postdoctoral research scientist at</b> <a href="https://pair.withgoogle.com/">Google PAIR</a>. I reasearch how to make large language models usable for everyone, from investigative journalists to designers. </p>
+
+          I received my PhD in computer science (specialized in HCI, AI, and Sensemaking) at <a href="https://www.columbia.edu/">Columbia University</a>, where I was lucky to be advised by <a href="https://www.cs.columbia.edu/~chilton/">Prof. Lydia B. Chilton</a>. I was also fortunate to have research internships at <a href="https://research.atspotify.com/">Spotify</a>, <a href="https://research.adobe.com/">Adobe</a>, and <a href="https://research.ibm.com/">IBM</a>.  
           </p>
 
           <p>
-          If you want to collaborate, email me: <b> savvas@cs.columbia.edu </b> <br> </p>
+          Feel free to reach out to me at: <b> savvas@cs.columbia.edu </b> <br> </p>
 
           <!-- <p class="highlight_text"> <b> I'm on the job market! </b> I'm interested in both industry and academic research opportunities - happy to connect. </p> --> 
-
-
-          <p>
-          Office: 703 CEPSR
-          </p>
 
         </div>
         
@@ -100,8 +95,25 @@
 
 <div class="container">
   <div id="projects" class='section'>
-    <h3> Projects </h3>
+    <h3> Selected Projects </h3>
     <br>
+
+        <div class="row"> 
+      <div class="col-md-4 "> 
+        <img src="./images/anglekindling_interface.png" class="project_picture">
+      </div>
+      <!-- <div class="col-md-6 col-sm-12"> -->
+      <div class="col-md-6">
+        <p class="paper_title"> AngleKindling: Supporting Journalistic Angle Ideation with Large Language Models  <small>[CHI 2023] </small> </p>
+        <p>
+        News media often leverage documents to find ideas for stories, while being critical of the frames and narratives present. Developing angles from a document such as a press release is a cognitively taxing process, in which journalists examine the implicit meaning of its claims. Informed by interviews with journalists, we developed AngleKindling, an interactive tool which employs the common sense reasoning of LLMs to help journalists explore angles for reporting on a press release. In a study with 12 professional journalists, we show that participants found AngleKindling signifcantly more helpful and less mentally demanding to use for brainstorming ideas, compared to a prior journalistic angle ideation tool. 
+        </p>
+        [<a target="_blank" href="./papers/anglekindling.pdf">pdf</a>]
+        
+      </div>
+    </div>
+
+    <hr>
 
     <div class="row"> 
       <div class="col-md-4 "> 
@@ -109,7 +121,7 @@
       </div>
       <!-- <div class="col-md-6 col-sm-12"> -->
       <div class="col-md-6">
-        <p class="paper_title"> TastePaths: Enabling Deeper Exploration and Understanding of Personal Preferences in Recommender Systems  <small>[to appear in IUI 2022] </small> </p>
+        <p class="paper_title"> TastePaths: Enabling Deeper Exploration and Understanding of Personal Preferences in Recommender Systems  <small>[IUI 2022] </small> </p>
         <p>
         Recommender systems are ubiquitous and influence the information we consume daily by helping us navigate vast
 catalogs of information like music databases. However, their linear approach of surfacing content in ranked lists limits
@@ -118,7 +130,7 @@ users in exploring a novel space, specifically focusing on music genres. Informe
 listeners, we developed TastePaths: an interactive web tool that helps users explore an overview of the genre-space via
 a graph of connected artists. 
         </p>
-        [<a target="_blank" href="./papers/tastepaths.pdf">paper</a>]
+        [<a target="_blank" href="./papers/tastepaths.pdf">pdf</a>]
         
       </div>
     </div>
@@ -141,15 +153,15 @@ finding visual symbols for abstract concepts. SymbolFinder molds symbol-finding 
 than recall task by introducing the user to diverse clusters associated with the concept. Users can dive into
 these clusters to find related, concrete objects that can symbolize the concept. 
         </p>
-        [<a target="_blank" href="./papers/symbolfinder.pdf">paper</a>]
+        [<a target="_blank" href="./papers/symbolfinder.pdf">pdf</a>]
         [<a target="_blank" href="https://www.youtube.com/watch?v=5qO6XF_nwCg">talk</a>]
         <!-- [<a target="_blank" href="https://columbia-computational-design-lab.github.io/symbol_finder_web/">project page</a>] --> 
         <!-- https://www.youtube.com/watch?v=5qO6XF_nwCg --> 
       </div>
     </div>
 
+    <!-- 
     <hr>
-
     <div class="row"> 
       <div class="col-md-4"> 
         <img src="./images/vb_system_outline.png" class="project_picture">
@@ -164,13 +176,11 @@ these clusters to find related, concrete objects that can symbolize the concept.
     </div>
 
     <hr>
-
     <div class="row"> 
       <div class="col-md-4"> 
         <img src="./images/top2_bot2_3.png" class="project_picture2">
       </div>
       <div class="col-md-6"> 
-        <!-- <h5> Human Errors in Interpreting Visual Metaphor </h5> --> 
         <p class="paper_title"> Human Errors in Interpreting Visual Metaphor  <small>[C&C 2019] </small> </p>
         <p> How do people interpret visual metaphors? What errors do they make? How can we learn from these errors to better visual communication and automatic machine understanding of advertisements? In this work, we provide evidence for four distinct types of errors people make in interpreting visual metaphors. We also show that people’s ability to interpret a visual message is not simply a function of image content but also of message familiarity. We discuss how our findings can be applied toward bettering visual communication. </p>
         [<a target="_blank" href="./papers/human_errors.pdf">paper</a>]
@@ -205,6 +215,7 @@ these clusters to find related, concrete objects that can symbolize the concept.
         [<a target="_blank" href="https://wimnet.ee.columbia.edu/wp-content/uploads/2013/03/LCN_Demo.pdf">paper 2</a>]
       </div>
     </div>
+  -->
   
 
 
@@ -222,34 +233,45 @@ these clusters to find related, concrete objects that can symbolize the concept.
           <div class="col-md-12">   
             <h3>Publications</h3>
 
+            <i><a href="./papers/anglekindling.pdf"><strong>AngleKindling: Supporting Journalistic Angle Ideation with Large Language Models</strong></a></i><br>
+            <b> Savvas Petridis</b>, <a href="https://www.nickdiakopoulos.com/">Nicholas Diakopoulos</a>, <a href="https://crowston.syr.edu/">Kevin Crowston</a>, <a href="https://journalism.columbia.edu/faculty/mark-hansen"> Mark Hansen</a>, <a href="https://newhouse.syr.edu/people/keren-henderson"> Keren Henderson</a>, <a href="https://newhouse.syr.edu/people/stan-jastrzebski"> Stan Jastrzebski</a>, <a href="https://www.stevens.edu/profile/jnickers"> Jeffrey V. Nickerson</a>, <a href="https://www.cs.columbia.edu/~chilton/chilton.html"> Lydia B. Chilton</a>. <br>
+            CHI 2023, ACM Conference on Human Factors in Computing Systems.
+            <br> <br>
+
+            <i><a href="./papers/popblends.pdf"><strong>PopBlends: Strategies for Conceptual Blending with Large Language Models</strong></a></i><br>
+            <a href="https://sitong-wang.github.io/">Sitong Wang</a>, <b> Savvas Petridis</b>, <a href="https://terrykwon.com/">Taeahn Kwon</a>, <a href="https://www.cse.ust.hk/~mxj//">Xiaojuan Ma</a>, <a href="https://www.cs.columbia.edu/~chilton/chilton.html"> Lydia B. Chilton</a>. <br>
+            CHI 2023, ACM Conference on Human Factors in Computing Systems.
+            <br> <br>
+
+
             <i><a href="./papers/tastepaths.pdf"><strong>TastePaths: Enabling Deeper Exploration and Understanding of Personal Preferences in Recommender Systems</strong></a></i><br>
-            <b> Savvas Petridis</b>, <a href="https://nediyana.github.io/">Nediyana Daskalova</a>, <a href="http://sarahmennicken.com/">Sarah Mennicken</a>, <a href="http://samfway.com/"> Samuel F. Way</a>, <a href="https://musicmachinery.com/"> Paul Lamere</a>, Jennifer Thom. <br>
-            To appear in IUI 2022.
+            <b> Savvas Petridis</b>, <a href="https://nediyana.github.io/">Nediyana Daskalova</a>, <a href="http://sarahmennicken.com/">Sarah Mennicken</a>, <a href="http://samfway.com/"> Samuel F. Way</a>, <a href="https://musicmachinery.com/"> Paul Lamere</a>, <a href="https://www.jennthom.com/">Jennifer Thom</a>. <br>
+            IUI 2022, ACM Conference on Intelligent User Interfaces.
             <br> <br>
 
             <i><a href="./papers/symbolfinder.pdf"> <strong> SymbolFinder: Brainstorming Diverse Symbols Using Local Semantic Networks </strong> </a></i><br>
             <b> Savvas Petridis</b>, <a href="https://hishin.github.io/"> Hijung Valentina Shin</a>, <a href="https://www.cs.columbia.edu/~chilton/chilton.html"> Lydia B. Chilton</a>.<br>
-            UIST 2021, ACM Symposium on User Interface Software and Technology
+            UIST 2021, ACM Symposium on User Interface Software and Technology.
             <br> <br>
 
             <i><a href="./papers/human_errors.pdf"><strong>Human Errors in Interpreting Visual Metaphor </strong></a></i><br>
             <b> Savvas Petridis</b> and <a href="https://www.cs.columbia.edu/~chilton/chilton.html"> Lydia B. Chilton</a>.<br>
-            Creativity and Cognition 2019 
+            C&C 2019, ACM Conference on Creativity and Cognition.
             <br> <br>
 
             <i><a href="./papers/visiblends.pdf"><strong>VisiBlends: A Flexible Workflow for Visual Blends</strong></a></i><br>
             <a href="https://www.cs.columbia.edu/~chilton/chilton.html"> Lydia B. Chilton</a>, <b> Savvas Petridis</b>, <a href="http://graphics.stanford.edu/~maneesh/"> Maneesh Agrawala</a>.<br>
-            CHI 2019, ACM Conference on Human Factors in Computing Systems
+            CHI 2019, ACM Conference on Human Factors in Computing Systems.
             <br> <br>
             
             <i><a href="./papers/evidence_paper.pdf"> <strong> Where is your Evidence: Improving Fact-checking by Justification </strong></a></i><br>
             <a href="https://www.cs.columbia.edu/~tariq/"> Tariq Alhindi</a>, <b> Savvas Petridis</b>,  <a href="http://www.cs.columbia.edu/~smara/"> Smaranda Muresan</a>. <br>
-            FEVER (Fact Extraction and Verification) Workshop at EMNLP 2018
+            FEVER (Fact Extraction and Verification) Workshop at EMNLP 2018.
             <br> <br>
 
             <i><a href="http://wimnet.ee.columbia.edu/wp-content/uploads/2016/03/infocomdemo.pdf"><strong> AMuSe: Large-scale WiFi video distribution - Experimentation on the ORBIT testbed </strong></a></i><br>
             Varun Gupta, Raphael Norwitz, <b>Savvas Petridis</b>, Craig Gutterman, Gil Zussman, Yigal Bejerano.<br>
-            Demo description in Proc. IEEE INFOCOM'16, 2016
+            Demo description in Proc. IEEE INFOCOM'16, 2016.
             <br> <br>
 
             <i><a href="http://wimnet.ee.columbia.edu/wp-content/uploads/2013/03/LCN_Demo.pdf"> <strong>WiFi multicast to very large groups - experimentation on the ORBIT testbed </strong> </a></i><br>
