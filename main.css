@@ -37,6 +37,15 @@
 	padding: 5px;
 }
 
+.announcement{
+	  background-color: #0062cc;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
 
 /*
 .link_button:hover {

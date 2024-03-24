@@ -70,10 +70,12 @@
         <div class="col-md-6"> 
           <h4> Hi, I'm Savvas. </h4>
           
-          <p><b>I am a postdoctoral researcher at</b> <a href="https://pair.withgoogle.com/">Google PAIR</a> (People + AI Research). I research how to make large language models useful for everyone, from investigative journalists to designers. </p>
+          <p><b>I am a visiting research scientist at</b> <a href="https://pair.withgoogle.com/">Google PAIR</a> (People + AI Research). I research how to make large language models (LLMs) easier to use.</p>
 
-          I received my PhD in computer science (specialized in HCI, AI, and Sensemaking) from <a href="https://www.columbia.edu/">Columbia University</a>, where I was lucky to be advised by <a href="https://www.cs.columbia.edu/~chilton/">Prof. Lydia B. Chilton</a>. I was also fortunate to have research internships at <a href="https://research.atspotify.com/">Spotify</a>, <a href="https://research.adobe.com/">Adobe</a>, and <a href="https://research.ibm.com/">IBM</a>.  
+          I received my PhD in computer science (specialized in <b>HCI, AI, and Human-AI Interaction</b>) from <a href="https://www.columbia.edu/">Columbia University</a>, where I was lucky to be advised by <a href="https://www.cs.columbia.edu/~chilton/">Prof. Lydia B. Chilton</a>. I was also fortunate to have research internships at <a href="https://research.atspotify.com/">Spotify</a>, <a href="https://research.adobe.com/">Adobe</a>, and <a href="https://research.ibm.com/">IBM</a>.  
           </p>
+
+          <p class="announcement">I'm on the job market for research scientist / engineer roles!</p>
 
           <p>
           Feel free to reach out to me at: <b> savvas@cs.columbia.edu </b> <br> </p>
@@ -98,6 +100,24 @@
     <h3> Selected Projects </h3>
     <br>
 
+
+    <div class="row"> 
+      <div class="col-md-4 "> 
+        <img src="./images/constitutional_experts.png" class="project_picture">
+      </div>
+      <!-- <div class="col-md-6 col-sm-12"> -->
+      <div class="col-md-6">
+        <p class="paper_title"> ConstitutionalExperts: Training a Mixture of Principle-based Prompts</p>
+        <p>
+        ConstitutionalExperts <b>automatically improves LLM prompts via fine-grained principle edits</b>. Unlike prior methods that optimize the prompt as a single entity, our method incrementally improves the prompt by surgically editing individual principles. 
+        </p>
+        <i>In submission at ACL 2024</i>, [<a target="_blank" href="https://arxiv.org/pdf/2403.04894.pdf">pdf</a>]
+        
+      </div>
+    </div>
+
+    <hr>
+
         <div class="row"> 
       <div class="col-md-4 "> 
         <img src="./images/cm-interactive-critique.png" class="project_picture">
@@ -106,9 +126,9 @@
       <div class="col-md-6">
         <p class="paper_title"> ConstitutionMaker: Interactively Critiquing Large Language Models by Converting Feedback into Principles</p>
         <p>
-        ConstitutionMaker is an interactive web application that enables users to revise LLM prompts with natural language feedback. Users can critique, kudos, or rewrite the LLM's output, and this feedback is then used to automatically update the prompt with a specific principle.
+        ConstitutionMaker enables users to <b>interactively improve LLM prompts with natural language feedback</b>. Users can critique, kudos, or rewrite the LLM's output, and this feedback is then used to automatically update the prompt with a specific principle.
         </p>
-        [<a target="_blank" href="https://arxiv.org/pdf/2310.15428.pdf">pdf</a>]
+        IUI 2024, [<a target="_blank" href="https://arxiv.org/pdf/2310.15428.pdf">pdf</a>]
         
       </div>
     </div>
@@ -125,7 +145,7 @@
         <p>
         PromptInfuser is a Figma plugin that enables users to create functional medium-fidelity prototypes, by connecting the UI mockup to LLM prompts. In a study with 14 designers, we found that PromptInfuser encouraged iteration over prompt and UI together, which helped designers identify UI and prompt incompatibilities and reflect upon their total solution.
         </p>
-        [<a target="_blank" href="https://arxiv.org/pdf/2310.15435.pdf">pdf</a>]
+        <i>In submission at DIS 2024</i>, [<a target="_blank" href="https://arxiv.org/pdf/2310.15435.pdf">pdf</a>]
         
       </div>
     </div>
@@ -138,11 +158,11 @@
       </div>
       <!-- <div class="col-md-6 col-sm-12"> -->
       <div class="col-md-6">
-        <p class="paper_title"> AngleKindling: Supporting Journalistic Angle Ideation with Large Language Models  <small>[CHI 2023] </small> </p>
+        <p class="paper_title"> AngleKindling: Supporting Journalistic Angle Ideation with Large Language Models </p>
         <p>
         AngleKindling is an interactive web application which employs the common sense reasoning of LLMs to help journalists explore angles (e.g. controversies) for reporting on a press release. In a study with 12 professional journalists, we show that participants found AngleKindling signifcantly more helpful and less mentally demanding to use for brainstorming ideas, compared to a prior journalistic angle ideation tool. 
         </p>
-        [<a target="_blank" href="./papers/anglekindling.pdf">pdf</a>]
+        CHI 2023, [<a target="_blank" href="./papers/anglekindling.pdf">pdf</a>]
         
       </div>
     </div>
@@ -161,14 +181,19 @@
           <div class="col-md-12">   
             <h3>Publications</h3>
 
+            <i><a href="https://arxiv.org/pdf/2403.04894.pdf"><strong>ConstitutionalExperts: Training a Mixture of Principle-based Prompts</strong></a></i><br>
+            <b>Savvas Petridis*</b>, <a href="http://www.benwedin.com/about/">Benjamin Wedin</a>*, Ann Yuan*, James Wexler, Nithum Thain. <br>
+            <i>In submission at ACL 2024</i>. * denotes equal contribution.
+            <br> <br>
+
             <i><a href="https://arxiv.org/pdf/2310.15428.pdf"><strong>ConstitutionMaker: Interactively Critiquing Large Language Models by Converting Feedback into Principles</strong></a></i><br>
             <b> Savvas Petridis</b>, <a href="http://www.benwedin.com/about/">Benjamin Wedin</a>, James Wexler, Aaron Donsbach, <a href="https://mahimapushkarna.com/">Mahima Pushkarna</a>, <a href="http://www.teshgoyal.info/">Nitesh Goyal</a>, <a href="https://sites.google.com/view/carriecai/home?pli=1">Carrie J. Cai</a>, <a href="https://research.google/people/107786/">Michael Terry</a>. <br>
-            <i>In submission</i>.
+            IUI 2024, ACM Conference on Intelligent User Interfaces.
             <br> <br>
 
             <i><a href="https://arxiv.org/pdf/2310.15435.pdf"><strong>PromptInfuser: How Tightly Coupling AI and UI Design Impacts Designers' Workflows</strong></a></i><br>
             <b> Savvas Petridis</b>, <a href="https://research.google/people/107786/">Michael Terry</a>, <a href="https://sites.google.com/view/carriecai/home?pli=1">Carrie J. Cai</a>. <br>
-            <i>In submission</i>.
+            <i>In submission at DIS 2024</i>.
             <br> <br>
 
             <i><a href="https://arxiv.org/pdf/2305.11364.pdf"><strong>Visualizing Linguistic Diversity of Text Datasets Synthesized by Large Language Models</strong></a></i><br>
