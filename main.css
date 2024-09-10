@@ -13,7 +13,7 @@ html *
         }
 
         .columbia-background1{
-          background-color: #edf3f6; /*#C4D8E2;*/
+          background-color: white; /*#C4D8E2;*/
         }
         .padding-div{
           padding-top: 0px;
@@ -40,6 +40,10 @@ html *
 .project_picture2 {
 	max-width: 60%;
 	border: 1px solid black;
+}
+
+.section_title {
+	border-bottom:  1px solid;
 }
 
 .project_picture3 {
