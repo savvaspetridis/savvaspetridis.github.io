@@ -1,5 +1,25 @@
 
 
+html *
+{
+   font-family: Arial;!important;
+}
+
+.section{
+            padding-top: 20px;
+        }
+        .organizer{
+            padding-top: 10px;
+        }
+
+        .columbia-background1{
+          background-color: #edf3f6; /*#C4D8E2;*/
+        }
+        .padding-div{
+          padding-top: 0px;
+          padding-bottom: 10px
+        }
+
 .protrait {
 	border-radius: 50%;
 	max-width: 100%;
